@@ -5,8 +5,25 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: lilian <lilian@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/07/01 14:41:32 by lilian            #+#    #+#             */
-/*   Updated: 2025/07/01 14:41:34 by lilian           ###   ########.fr       */
+/*   Created: 2025/07/01 12:09:39 by lilian            #+#    #+#             */
+/*   Updated: 2025/07/01 15:21:10 by lilian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdio.h>
+
+int	ft_strncmp(char *s1, char *s2, unsigned int n)
+{
+	unsigned int	i;
+
+	i = 0;
+	while (s1[i] && s2[i] == s1[i])
+	{
+		i++;
+	}
+	if (n > i)
+	{
+		return s1[i] - s2[i];
+	}
+	return (0);
+}

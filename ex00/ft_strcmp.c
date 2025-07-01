@@ -6,7 +6,7 @@
 /*   By: lilian <lilian@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/01 12:09:39 by lilian            #+#    #+#             */
-/*   Updated: 2025/07/01 13:50:30 by lilian           ###   ########.fr       */
+/*   Updated: 2025/07/01 15:19:50 by lilian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,11 +22,4 @@ int	ft_strcmp(char *s1, char *s2)
 		i++;
 	}
 	return s1[i] - s2[i];
-}
-
-int main(void)
-{
-	char s1t[] = "piscine";
-	char s2t[] = "pascine";
-	printf("%d", ft_strcmp(s1t, s2t));
 }
