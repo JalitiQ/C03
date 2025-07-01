@@ -6,7 +6,7 @@
 /*   By: lilian <lilian@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/01 12:09:39 by lilian            #+#    #+#             */
-/*   Updated: 2025/07/01 15:21:10 by lilian           ###   ########.fr       */
+/*   Updated: 2025/07/01 18:02:20 by lilian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 	}
 	if (n > i)
 	{
-		return s1[i] - s2[i];
+		return (s1[i] - s2[i]);
 	}
 	return (0);
 }
